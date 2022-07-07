@@ -1,0 +1,162 @@
+body {
+  background-image: url("./img/0609\ 5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /*margin: 17px;*/
+  margin: 2%;
+  font-family: sans-serif;
+}
+.hrefs {
+  color:#222222;
+  text-decoration: none;
+}
+a:link {
+  color: firebrick;
+  text-shadow: 0px 0px 1px chartreuse;
+}
+#par1 {
+  background-color: khaki;
+}
+#par2 {
+  background-color: lightsalmon;
+}
+.allTheContent {
+  padding: 0% 5%;
+  display: inline-block;
+  width: 90%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+#cat {
+  background-color: rgba(255, 220, 62, 0.85);
+}
+h1 {
+  text-align: center;
+}
+#Header p {
+  display: inline;
+  line-height: 3rem;
+  padding: 0.5% 5%;
+  text-align: center;
+  background-color: rgba(205, 133, 63, 0.9);
+}
+#Header2 {
+  margin: 7%;
+  text-align: center;
+  height: 80px;
+  line-height: 75px;
+  background-color: sandybrown;
+}
+/*#header1 {
+  background-color: sandybrown;
+} */
+button:hover {
+  background-color: sienna;
+}
+button:active {
+  background-color: saddlebrown;
+}
+button {
+  background-color: sandybrown;
+  animation: flipping;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2;
+}
+.button1 button {
+  padding: 1rem 3rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.button2 {
+position: relative;
+margin-left: 15%;
+font-size: 5rem;
+line-height: 8rem;
+padding: 0 7rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.emptyBtn{
+  cursor: pointer;
+}
+.linksDiv {
+  margin: 0 10%;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding: 0%
+}
+.linksDiv a {
+  text-decoration: none;
+  color:black;
+  text-shadow: none;
+}
+.linksDiv a:active{
+  color: firebrick;
+}
+.linksDiv a:hover{
+  text-shadow: 0px 0px 1px chartreuse;
+}
+section {
+  float: left;
+  width: 35%;
+}
+aside {
+  margin: 15% 0%;
+  float: right;
+  width: 65%;
+}
+section audio {
+  width:100%;
+  height: 10%;
+}
+.block1 {
+margin: 0% 10%;
+}
+#bt2 {
+  margin-inline: 7%;
+  margin-top: -10%;
+}
+#flip {
+  width: 200px;
+  height: 150px;
+  font-size: 50px;
+  text-align: center;
+  margin-left: -5px;
+
+  animation: flipping;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #444444;
+}
+
+li a {
+  height: 30px;
+  font-size: 125%;
+  margin: 0 auto;
+  float: left;
+  display: block;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid black;
+  min-width: 80px;
+}
+li a:hover {
+  background-color: #222222;
+  animation: hovanim;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+}
+@keyframes hovanim {
+  50% {
+    text-shadow: 0px 0px 20px darkgoldenrod;
+  }
+}
